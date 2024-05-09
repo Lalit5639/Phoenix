@@ -257,6 +257,9 @@ nav .content .links li{
     background: #0f4b00;
     color: white;
 }
+#btn a{
+    text-decoration: none;
+}
 /* howe section end  */
 
 
@@ -788,7 +791,7 @@ marquee{
 
     
     /* footer section End  */
-.about1 h1{
+    .about1 h1{
         color: #0f4b00;
         font-size: 3rem;
         text-align: center;
@@ -816,5 +819,9 @@ marquee{
         line-height:35px;
         font-weight: 450;
     }
-
+    @media (max-width:922px){
+        .about{
+            grid-template-columns: 1fr;
+        }
+    }
 
