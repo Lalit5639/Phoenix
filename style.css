@@ -823,5 +823,10 @@ marquee{
         .about{
             grid-template-columns: 1fr;
         }
+        .about1 h1{
+            font-size:20px
     }
+        .about1 p{
+            font-size:10px
+        }
 
