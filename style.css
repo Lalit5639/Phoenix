@@ -345,12 +345,18 @@ nav .content .links li{
     color: #0f4b00;
     font-size: bold;
     border-radius: 10px;
-    transition: 0.5s ease;
+}
+.accord{
+    font-size: 15px;
     cursor: pointer;
 }
-#about-btn:hover{
-    background: #0f4b00;
-    color: white;
+.accord-none{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+.accord:hover + .accord-none{
+    max-height: 200px;
 }
 @media (max-width:920px){
     .about{
