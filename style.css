@@ -902,6 +902,8 @@ body{
     width: 300px;
     text-align: left;
     color: black;
+    background:#fff;
+    opacity:15px;
     transform: translate(0, -50%);
     font-family: system-ui;
     display: none;
